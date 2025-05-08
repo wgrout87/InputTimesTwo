@@ -3,11 +3,11 @@
 int main ()
 {
     std::cout << "Please enter an integer: ";
-    int x {0};
 
-    std::cin >> x;
+    int num {0};
+    std::cin >> num;
 
-    std::cout << "Double that number is: " << x * 2;
+    std::cout << "Double that number is: " << num * 2;
 
     return 0;
 }
